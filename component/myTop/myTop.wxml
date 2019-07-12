@@ -1,0 +1,16 @@
+<view class="myTop">
+<!-- logo -->
+<navigator class="logo">
+    <image style="width:140rpx;height:60rpx" class="log" src="../../icon/mow.png"></image>
+</navigator>
+<!-- 搜索 -->
+<view class="home">
+    <image style="width:60rpx;height:60rpx"class="se" src="../../icon/icon-home.png"></image>
+</view>
+<!-- 用户 -->
+<view class="user">
+    <image style="width:60rpx;height:60rpx"class="us" src="../../icon/icon-user.png"></image>
+</view>
+
+
+</view>

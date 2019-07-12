@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "MOW",
+  "usingComponents":{
+      "myTop":"../../component/myTop/myTop"
+  }
+}

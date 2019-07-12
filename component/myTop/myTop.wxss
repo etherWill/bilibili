@@ -1,0 +1,27 @@
+/* component/myTop/myTop.wxss */
+.myTop{
+    display: flex;
+    align-items: center;
+    padding: 10rpx;
+    background-color: aliceblue;
+}
+
+.logo{
+    flex:8;
+    display:flex;
+    justify-content: left;
+    align-items:center;
+}
+
+.home{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

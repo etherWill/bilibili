@@ -1,0 +1,16 @@
+<view class="main">
+    <!-- 公共头部 -->
+    <myTop></myTop>
+    <!-- 首页导航 -->
+    <view class="nav_wrap">
+        <!-- 自己滚动区域组件 -->
+        <scroll-view class="nav" scroll-x style="width:100%" >
+            <view bindtap="activeNav" data-index="{{index}}" 
+            class="nav_item {{index===currentIndexNav?'active':''}}" 
+            wx:for="{{navList}}" wx:key="{{index}}">{{item.text}}</view>
+        </scroll-view>
+    </view>
+    <textarea name="api" id="" cols="30" rows="10">
+        https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili
+    </textarea>
+</view>
